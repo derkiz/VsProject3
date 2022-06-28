@@ -1,4 +1,6 @@
-Hello World.
+Django Application for Chatbot
 
-- Welcome to the project
-- I added a readme.txt file
+- Functional Base Django project
+- Added templates
+    - Basic html template for the index
+    - /ends/ http response added
