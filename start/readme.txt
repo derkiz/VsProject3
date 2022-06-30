@@ -4,3 +4,5 @@ Django Application for Chatbot
 - Added templates
     - Basic html template for the index
     - /ends/ http response added
+    
+- Added Lex chatbot script to home.html
