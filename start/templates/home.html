@@ -1,24 +1,23 @@
 <body>
-    <h>/home/ : Hello World</h> 
-    <script src="https://d33l0zo9bui6uq.cloudfront.net/lex-web-ui-loader.min.js"></script>
-<script>
-  var loaderOpts = {
-    baseUrl: 'https://d33l0zo9bui6uq.cloudfront.net/',
-    shouldLoadMinDeps: true
-  };
-  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
-  var chatbotUiConfig = {
-          /* Example of setting session attributes on parent page
-          lex: {
-            sessionAttributes: {
-              userAgent: navigator.userAgent,
-              QNAClientFilter: ''
-            }
-          }
-          */
+    <h>/home/ : Hello World</h>
+    <script src="https://d30rcmp724i9ed.cloudfront.net/lex-web-ui-loader.min.js"></script>
+    <script>
+        var loaderOpts = {
+            baseUrl: 'https://d30rcmp724i9ed.cloudfront.net/',
+            shouldLoadMinDeps: true
         };
-  loader.load(chatbotUiConfig)
-    .catch(function (error) { console.error(error); });
-</script>
+        var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+        var chatbotUiConfig = {
+            /* Example of setting session attributes on parent page
+            lex: {
+              sessionAttributes: {
+                userAgent: navigator.userAgent,
+                QNAClientFilter: ''
+              }
+            }
+            */
+        };
+        loader.load(chatbotUiConfig)
+            .catch(function (error) { console.error(error); });
+    </script>
 </body>
-
